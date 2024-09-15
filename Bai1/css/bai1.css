@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container {
+    width: 1000px;
+    padding: 0px;
+    margin: 0px auto;
+   
+}
+
+
+.inner_wrapper {
+    position: absolute;
+    width: 800px;
+    background: linear-gradient(to bottom, rgb(78, 234, 245), rgb(15, 107, 157));
+}
+
+
+/*  */
+.inner_nav{
+    border-bottom: 5px dotted white;
+    margin-bottom: 10px;
+}
+.inner_header {
+    color: white;
+    text-shadow: 5px 5px 5px blue;
+    float: right;
+    /* right: 1000px; */
+}
+
+.inner_header h1{
+    margin-right: 40px;
+    font-size: 25px;
+
+}
+
+.inner_nav ul {
+    display: flex;
+}
+
+.inner_nav ul li {
+    list-style-type: none;
+    margin: 10px;
+
+}
+
+.inner_nav ul li a {
+    text-decoration: none;
+
+}
+
+/*  */
+.aside {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.aside .aside_left {
+    width: calc(50% - 10px)
+}
+.aside_left_form{
+    margin-left: 50px;
+    
+}
+.aside_left_form .input{
+    padding: 0px;
+  
+}
+.inner_aside_left{
+    padding-left:20px ;
+}
+/*  */
+.aside .aside_right {
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+/*  */
+.footer{
+    border-top: 5px dotted white;
+}
+.inner_footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}

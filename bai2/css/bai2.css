@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px ;
+}
+
+.container {
+    margin: auto;
+    width: 1400px;
+    position: relative;
+    border: 1px solid black;
+    
+}
+.inner_wrapper {
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+/*  */
+.inner_head {
+    display: flex;
+    background-color: #294E79;
+    padding: 10px;
+    width: 98, 7%;
+
+}
+
+.inner_head .content {
+    margin-top: 20px;
+    color: white;
+}
+
+.img {
+    height: 100px;
+}
+
+.search {
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+
+}
+
+/*  */
+.inner_nav {
+    display: flex;
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+.inner_nav li {
+    list-style-type: none;
+    background-color: rgb(73, 151, 199);
+    margin-left: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.inner_nav li a {
+    text-decoration: none;
+
+}
+
+
+/*  */
+
+.inner_section {
+    display: flex;
+}
+
+.inner_aside {
+    width: 60%;
+}
+
+.article {
+    width: 40%;
+
+}
+
+.aside-content {
+    display: flex;
+}
+
+/*  */
+.aside_left {
+    width: 60%;
+    margin-left: 10px;
+}
+
+.aside_left h1 {
+    border-bottom: 3px dotted black;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* left */
+.inner-aside-left {
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.inner-aside-left .content .form td {
+    padding: 5px;
+}
+
+/*  */
+.aside-content {
+    width: 100%;
+    height: 100%;
+
+}
+
+/*  */
+
+/*right */
+
+.inner-aside-right {
+    width: 50%;
+    font-size: 14px;
+    /* background-color: aqua; */
+}
+
+.inner-aside-right #h2-right {
+    border-bottom: 1px dotted black;
+    padding: 5px;
+}
+
+.inner-aside-right .aside-right-content-1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.inner-aside-right .aside-right-content-2 {
+    margin-bottom: 10px;
+}
+
+/*  */
+.article {
+    margin-left: 30px;
+}
+
+.article .h2-rght {
+    border-bottom: 1px dotted black;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.article .article-img {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.article .not {
+    margin-left: 350px;
+    color: #031830;
+}
+
+/*  */
+.inner_footer {
+    background-color: #1E3352;
+    color: white;
+}
+
+    /* Menu-1 */
+    .Menu .menu-parent {
+        display: flex;
+        position: relative;
+        float: right;
+        margin-top: -20px;
+    }
+
+    .Menu .menu-parent li {
+        background-color: rgb(115, 115, 204);
+        text-align: center;
+        list-style-type: none;
+        margin-left: 20px;
+        width: 150px;
+    }
+
+    .Menu .menu-parent li:hover {
+        background-color: pink;
+    }
+
+
+
+    .Menu .menu-parent li a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+
+/* MENU */
+    /* chill menu-1 */
+    .Menu .menu-parent li:hover>.menu-chill-1 {
+        display: block;
+    }
+
+    .Menu .menu-parent .menu-chill-1 {
+        position: absolute;
+        display: none;
+        text-align: right;
+        left: 0px;
+
+    }
+
+    .Menu .menu-parent .menu-chill-1 li {
+        margin-top: 5px;
+    }
+
+    /* chill menu 2 */
+    .Menu .menu-parent li:hover>.menu-chill-2 {
+        position: absolute;
+        display: block;
+
+    }
+
+    .Menu .menu-parent .menu-chill-2 {
+        position: relative;
+        display: none;
+        text-align: right;
+    }
+
+    .Menu .menu-parent .menu-chill-2 li {
+        margin-top: 5px;
+        margin-left: -0px;
+    }
+
+    /* chill menu 3 */
+    .Menu .menu-parent li:hover>.menu-chill-3 {
+        position: absolute;
+        display: block;
+
+    }
+
+    .Menu .menu-parent .menu-chill-3 {
+        position: relative;
+        display: none;
+        text-align: right;
+    }
+
+    .Menu .menu-parent .menu-chill-3 li {
+        margin-top: 5px;
+        margin-left: -0px;
+    }
+
+    /* chill menu 4 */
+    .Menu .menu-parent li:hover>.menu-chill-4 {
+        position: absolute;
+        display: block;
+
+    }
+
+    .Menu .menu-parent .menu-chill-4 {
+        position: relative;
+        display: none;
+        text-align: right;
+    }
+
+    .Menu .menu-parent .menu-chill-4 li {
+        margin-top: 5px;
+        margin-left: -0px;
+    }
+
+    /* chill menu 5 */
+    .Menu .menu-parent li:hover>.menu-chill-5 {
+        position: absolute;
+        display: block;
+
+    }
+
+    .Menu .menu-parent .menu-chill-5 {
+        position: relative;
+        display: none;
+        text-align: right;
+    }
+
+    .Menu .menu-parent .menu-chill-5 li {
+        margin-top: 5px;
+        margin-left: -0px;
+    }
